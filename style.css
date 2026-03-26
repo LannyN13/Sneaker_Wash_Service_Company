@@ -499,14 +499,18 @@ footer {
   }
 
   .nav-links a {
-    color: #fff;
+    color: #0f8f61;
+    /* green text */
     font-size: 1.1rem;
     padding: 0.75rem 0;
     display: block;
+    font-weight: 700;
   }
 
   .nav-links a:hover {
-    color: #0f8f61;
+    color: #adffd6;
+    /* lighter green hover */
+    background-color: rgba(15, 143, 97, 0.15);
   }
 
   .hamburger {
